@@ -1,5 +1,15 @@
 # Autobrowser
 
+Single command, no click, default browser swapping on macOS
+
+## Required Software
+
+https://github.com/kerma/defaultbrowser
+
+```bash
+brew install defaultbrowser
+```
+
 ## Example Usage
 
 **Simple same directory usage**
