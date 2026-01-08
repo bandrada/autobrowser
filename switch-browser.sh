@@ -1,2 +1,2 @@
 defaultbrowser "$1"
-osascript ./confirm-system-dialog.app > /dev/null
+osascript $(echo "$0" | sed 's/switch-browser.sh//')/confirm-system-dialog.app > /dev/null
